@@ -1,0 +1,8 @@
+.contact_app{
+    border: 1px solid grey;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

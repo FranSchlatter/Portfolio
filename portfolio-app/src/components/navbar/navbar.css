@@ -1,0 +1,8 @@
+.navbar_app{
+    border: 1px solid red;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
