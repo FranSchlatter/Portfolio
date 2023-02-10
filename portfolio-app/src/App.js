@@ -8,6 +8,8 @@ import Proyects from "./components/proyects/proyects.jsx";
 import Contact from "./components/contact/contact.jsx";
 import Footer from "./components/footer/footer.jsx";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className='app_main'>
