@@ -1,8 +1,74 @@
+.main_contact_app{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_title_h1 {
+    border-bottom: 2px solid blue;
+}
+
 .contact_app{
-    border: 1px solid grey;
-    height: 70vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+}
+
+.contact_section_form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 360px;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.contact_section_form input{
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    padding-left: 4px;
+}
+
+.contact_section_form textarea{
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    height: 200px;
+    padding: 4px;
+}
+
+.contact_section_form .contact_button_send{
+    background-color: transparent;
+    font-weight: 700;
+    width: 100px;
+    position: relative;
+    left: 220px;
+    margin-bottom: 0px;
+}
+
+.contact_button_send:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+/* derecha */
+
+.contact_section_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.contact_section_div span{
+    font-weight: 700;
+    margin-left: 20px;
 }

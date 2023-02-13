@@ -1,8 +1,22 @@
 .footer_app{
-    border: 1px solid pink;
-    height: 30vh;
+    margin: 12px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer_app h6{
+    margin-top: 10px;
+}
+
+.footer_app span{
+    color: blue;
+}
+
+.footer_app button{
+    color: blue;
+    border: none;
+    background-color: transparent;
+    margin: 20px;
 }
