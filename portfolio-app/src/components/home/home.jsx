@@ -17,3 +17,11 @@ export default Home;
 // - Animacion en send?
 // - Animacion en los titulos?
 // - Animacion en home? 
+// - Animacion en navbar cuando se aplica el sticky?
+// - Agregar softskills?
+// - Navbar con color depende donde estoy
+// - Cambiar fuente poppin
+// - Animacion en contact
+// - Tostify en contact
+// - Borrar form con send 
+// - Hover en proyects

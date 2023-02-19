@@ -8,10 +8,11 @@ function Footer({ homeRef }) {
 
   return (
     <div className="footer_app">
-      <h6>Francisco Schlatter <span>2023</span></h6>
+      <h6>Francisco Schlatter <span>#2023</span></h6>
       <button onClick={handleClickHome}><ArrowUpwardIcon/></button>
     </div>
   );
 }
 
 export default Footer;
+

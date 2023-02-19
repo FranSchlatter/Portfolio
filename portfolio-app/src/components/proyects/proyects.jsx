@@ -57,7 +57,7 @@ function Proyects({ projectsRef }) {
             </div>
             <div>
               <a href="https://www.linkedin.com/in/francisco-schlatter/" target={'_blank'}><YouTubeIcon style={{color: "blue"}}/></a>
-              <span>Video</span>
+              <span>Demo</span>
             </div> */}
             <div>
               <a href="https://github.com/brunoosuna8/IsabellaCruz" target={'_blank'}><GitHubIcon style={{color: "blue"}}/></a>
@@ -113,7 +113,7 @@ function Proyects({ projectsRef }) {
             </div>
             <div>
               <a href="https://www.linkedin.com/in/francisco-schlatter/" target={'_blank'}><YouTubeIcon style={{color: "blue"}}/></a>
-              <span>Video</span>
+              <span>Demo</span>
             </div> */}
             <div>
               <a href="https://github.com/FranSchlatter/trukito" target={'_blank'}><GitHubIcon style={{color: "blue"}}/></a>
@@ -194,7 +194,7 @@ function Proyects({ projectsRef }) {
             </div>
             <div>
               <a href="https://www.youtube.com/watch?v=PIrstvAw88E&t=901s&ab_channel=FranciscoSchlatter" target={'_blank'}><YouTubeIcon style={{color: "blue"}}/></a>
-              <span>Video</span>
+              <span>Demo</span>
             </div>
             <div>
               <a href="https://github.com/FranSchlatter/Non-Fungible-Town" target={'_blank'}><GitHubIcon style={{color: "blue"}}/></a>
@@ -250,7 +250,7 @@ function Proyects({ projectsRef }) {
             </div>
             <div>
               <a href="https://www.youtube.com/watch?v=KkoGtz8_5BI&t=1s&ab_channel=FranciscoSchlatter" target={'_blank'}><YouTubeIcon style={{color: "blue"}}/></a>
-              <span>Video</span>
+              <span>Demo</span>
             </div>
             <div>
               <a href="https://github.com/FranSchlatter/CP-FOOD-HERNY" target={'_blank'}><GitHubIcon style={{color: "blue"}}/></a>
