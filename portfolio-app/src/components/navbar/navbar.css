@@ -1,12 +1,11 @@
 .navbar_app{
     background-color: #212121;
     color: white;
-    height: 48px;
+    height: 58px;
     width: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
-    border: 2px solid white;
 }
 
 .sticky {
@@ -15,12 +14,11 @@
     z-index: 1;
     background-color: #212121;
     color: white;
-    height: 48px;
+    height: 58px;
     width: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
-    border: 2px solid white;
 }
 
 .navbar_options{
@@ -40,9 +38,22 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-weight: 700;
+    font-weight: 550;
+    border: 2px solid #212121;
+    border-radius: 8px;
+    padding: 8px;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border 0.4s ease-in-out;
 }
 
 .navbar_options button:hover{
-    color: blue;
+    color: #212121;
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.active {
+    color: blue !important;
+    border-bottom: 1px solid white !important;
 }

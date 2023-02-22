@@ -8,6 +8,8 @@
 
 .proyect_title_h1 {
     border-bottom: 2px solid blue;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 
 .proyects_app{
@@ -22,12 +24,19 @@
     width: 380px;
     margin: 20px auto;
     height: 720px;
-    border: 1px solid #424242;
+    border: 1px solid #212121;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
     justify-content: space-around;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.proyects_app .proyects_section_template:hover{
+    border: 1px solid blue;
+    transform: scale(1.1);
 }
 
 .proyects_section_mid{

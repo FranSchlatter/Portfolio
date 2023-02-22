@@ -1,4 +1,5 @@
 import './App.css';
+import { ToastContainer } from 'react-toastify';
 import React, { useRef } from "react";
 
 import Home from "./components/home/home.jsx";
@@ -18,12 +19,13 @@ function App() {
 
   return (
     <div className='app_main'>
-      <Home homeRef={homeRef}/>
+      <Home homeRef={homeRef} projectsRef={projectsRef}/>
       <Navbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} contactRef={contactRef}/>
       <About aboutRef={aboutRef}/>
       <Proyects projectsRef={projectsRef}/>
       <Contact contactRef={contactRef}/>
       <Footer homeRef={homeRef}/>
+      <ToastContainer />
     </div>
   )
 }
