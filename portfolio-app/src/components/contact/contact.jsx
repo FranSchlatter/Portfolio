@@ -31,6 +31,10 @@ function Contact( {contactRef} ) {
       });
   };
 
+  const sendAnotherEmail = () => {
+    setEmailsent(false);
+  };
+
   const showToastMessage = () => {
     toast.success("Email sent successfully", {
         position: toast.POSITION.TOP_RIGHT
@@ -90,6 +94,7 @@ function Contact( {contactRef} ) {
             <div className='contact_section_form'>
               <h3>Your message has been sent correctly</h3>
               <h4>I will contact you shortly</h4>
+              <button className='button_resend' onClick={sendAnotherEmail}>Send another email</button>
             </div>
           </div>
         }

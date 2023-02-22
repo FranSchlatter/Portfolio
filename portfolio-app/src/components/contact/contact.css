@@ -80,7 +80,21 @@
     transition: background-color 0.5s ease-in-out;
 }
 
-.contact_button_send:hover{
+.contact_section_form .button_resend{
+  margin: auto;
+  margin-top: 20px;
+  background-color: transparent;
+  font-weight: 550;
+  width: 200px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  border: 1px solid blue;
+  padding: 4px;
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.contact_button_send:hover, .button_resend:hover{
     background-color: white;
     border: 1px solid white;
     color: blue;
@@ -179,7 +193,6 @@
     opacity: 1;
   }
 }
-
 
 .visible{
   visibility: visible;

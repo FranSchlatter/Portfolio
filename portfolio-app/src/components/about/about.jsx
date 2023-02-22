@@ -26,13 +26,10 @@ function About( {aboutRef} ) {
         contactLeft.current.classList.remove('slide-in-left', 'visible');
         contactLeft.current.classList.add('hidden');
       }
-       
     }
 
-    // Añadir un event listener para el evento 'scroll'
     window.addEventListener('scroll', activarAnimacion);
 
-    // Limpiar el event listener cuando se desmonta el componente
     return () => {
       window.removeEventListener('scroll', activarAnimacion);
     };
