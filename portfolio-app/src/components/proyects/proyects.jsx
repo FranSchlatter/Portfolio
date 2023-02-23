@@ -32,7 +32,7 @@ function Proyects({ projectsRef }) {
             <span>
               Design and develop an e-commerce App that included: searches, filtering, ordering,
               creation, admin dashboard, google auth, payment gateway, nodemailer,
-              cloudinary, among many other features.
+              cloudinary, etc.
             </span>
             <h3>Technologies</h3>
             <ul className='proyects_section_ul'>
@@ -89,7 +89,7 @@ function Proyects({ projectsRef }) {
 
           <div className='proyects_section_mid'>
             <span>
-              Design and develop an truco App which includes tournaments, players, matches, statistics, scorer, among other things.
+              Design and develop a truco App which includes tournaments, players, matches, statistics, scorer, etc.
             </span>
             <h3>Technologies</h3>
             <ul className='proyects_section_ul'>
@@ -165,7 +165,7 @@ function Proyects({ projectsRef }) {
             <span>
               Design and develop an e-commerce App that included: log-in, searches, filtering, ordering,
               creation, identity verification, admin dashboard, google auth, payment gateway, nodemailer,
-              cloudinary, among many other features.
+              cloudinary, etc.
             </span>
             <h3>Technologies</h3>
             <ul className='proyects_section_ul'>
@@ -198,6 +198,66 @@ function Proyects({ projectsRef }) {
             </div>
             <div>
               <a href="https://github.com/FranSchlatter/Non-Fungible-Town" target={'_blank'}><GitHubIcon style={{color: "blue"}}/></a>
+              <span>Repository</span>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        {/* PROYECT - PORTFOLIO */}
+
+        <div className='proyects_section_template'>
+
+          <div>
+            <Carousel>
+              <Carousel.Item>
+                <img className="d-block w-100" src="https://i.postimg.cc/m264QpQs/image.png" alt="Third slide" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100" src="https://i.postimg.cc/3NSsFW0B/image.png" alt="First slide" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100" src="https://i.postimg.cc/HxTFGbQz/image.png" alt="Second slide" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100" src="https://i.postimg.cc/nzdR6gVV/image.png" alt="Second slide" />
+              </Carousel.Item>
+            </Carousel>
+          </div>
+
+          <div className='proyects_section_mid'>
+            <span>
+            Design and develop a professional portfolio, with personal information, multiple contact options, 
+            responsive design for any device and that includes the possibility of sending emails.
+            </span>
+            <h3>Technologies</h3>
+            <ul className='proyects_section_ul'>
+              <li>JavaScript</li>
+              <li>Css</li>
+              <li>React</li>
+              <li>Tostify</li>
+              <li>Emailjs</li>
+              <li>Material UI</li>
+              <li>Boostrap</li>
+            </ul>
+          </div>
+
+          <div className='proyects_section_div'>
+            <div>
+              <a href="https://portfolio-ten-pi-38.vercel.app/" target={'_blank'}><FindInPageIcon style={{color: "blue"}}/></a>
+              <span>Deploy</span>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=EqZ90wAc5xo&ab_channel=FranciscoSchlatter" target={'_blank'}><YouTubeIcon style={{color: "blue"}}/></a>
+              <span>Demo</span>
+            </div>
+            <div>
+              <a href="https://github.com/FranSchlatter/Portfolio" target={'_blank'}><GitHubIcon style={{color: "blue"}}/></a>
               <span>Repository</span>
             </div>
           </div>
